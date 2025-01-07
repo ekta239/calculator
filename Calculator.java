@@ -10,5 +10,13 @@ System.out.print("Enter the first number: ");
 int num1=sc.nextInt();
 System.out.print("Enter the second number: ");
 int num2= sc.nextInt();
+switch(o){
+case '+':
+System.out.println(num1+num2);
+
+
+default:
+System.out.println("invalid input");
+}
 }
 }
