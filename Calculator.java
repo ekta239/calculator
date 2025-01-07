@@ -15,6 +15,8 @@ case '+':
 System.out.println(num1+num2);
 case '-':
 System.out.println(num1-num2);
+case '*':
+System.out.println(num1*num2);
 default:
 System.out.println("invalid input");
 }
